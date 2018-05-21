@@ -338,7 +338,8 @@ function update() {
 				var comments =  response.comments.data;
 				for(var i = comments.length - 1; i >= 0; i--) {
 					if(oldCommentsID.indexOf(comments[i].id) === -1) {
-
+						console.log(comments);
+						if(comments[i].message.length<101){
 						var message = comments[i].message,
 						name = comments[i].from.name,
 						time = comments[i].created_time,
@@ -353,12 +354,15 @@ function update() {
 								message = message.replace(tags[j].name, "<em>@" + tags[j].name + "</em>");
 							}
 						}
+						console.log(message);
+
 						$("#shoutbox").empty(); 
 						$('<li></li>')
 							.html('<div class="comment"><span class="name">' + name +': '+ '</span><span class="message">' + commentImage + message + '</span><span class="time" data-time="' + time + '">Just now</span></div>')
 							.appendTo('#shoutbox').show('slow');
 						oldCommentsID.push(comments[i].id);
 					}
+				}
 				}			
 			}
 		})
