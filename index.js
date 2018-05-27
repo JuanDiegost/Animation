@@ -4,7 +4,7 @@ var settings = {
   social: {
     
     // Twitch Name
-    twitchUsername: "Estas Viendo:Psycho-Pass",
+    twitchUsername: "Estas Viendo: El viaje de Chihiro",
     
     // Twitter Name
     twitterUsername: "A continuación: ",
