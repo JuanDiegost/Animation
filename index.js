@@ -4,13 +4,13 @@ var settings = {
   social: {
     
     // Twitch Name
-    twitchUsername: "Estas Viendo: El viaje de Chihiro",
+    twitchUsername: "Estas Viendo: El castillo vagabundo",
     
     // Twitter Name
     twitterUsername: "A continuación: ",
     
     // Facebook Name
-    facebookUsername: "Like y compartir para no perderte ningun live😉",
+    facebookUsername: "Danos un Like, para no perderte ningun live😉",
     
     // Instagram Name
     instagramUsername: "ChangeThis",
