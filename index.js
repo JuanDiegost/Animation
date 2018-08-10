@@ -4,7 +4,7 @@ var settings = {
   social: {
     
     // Twitch Name
-    twitchUsername: "Estas Viendo: El castillo vagabundo",
+    twitchUsername: "Estas Viendo: Aho Girl",
     
     // Twitter Name
     twitterUsername: "A continuación: ",
