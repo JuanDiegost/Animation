@@ -4,7 +4,7 @@ var settings = {
   social: {
     
     // Twitch Name
-    twitchUsername: "Estas Viendo: Aho Girl",
+    twitchUsername: "Konosuba Temp 1",
     
     // Twitter Name
     twitterUsername: "A continuación: ",
